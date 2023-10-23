@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center; /* Allineamento orizzontale */
+    align-items: center; /* Allineamento verticale */
+    background-color: black;
+    border-top: 1px solid black;
+}
+
+.button {
+    background-color: brown;
+    padding: 20px;
+    width: 300px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-style: groove;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+
+.button:hover {
+    transform: translateY(+10px);
+    background-color: darkred;
+}
